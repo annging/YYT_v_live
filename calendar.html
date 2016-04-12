@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>日程表</title>
+	<link rel="stylesheet" href="../style/css/calendar.css">
+	<script src="http://api.geetest.com/get.php"></script>
+	<link rel="stylesheet" href="style/reset.css">
+	<link rel="stylesheet" href="style/css/loginbox.css">
+	<link rel="stylesheet" href="style/css/dialog.css">
+	<link rel="stylesheet" href="style/css/mbox.css">
+</head>
+<body>
+	<div id="header">
+		<div class="topbar">
+			<div class="common_con">
+				<h1 class="logo"></h1>
+				<div class="nav">
+					<a href="index.html" class="index">首页<span></span></a>
+					<a href="javascript:;" class="calendar now">日程表<span></span></a>
+				</div>
+				<div class="searchBox">
+					<span class="searchIco"></span>
+					<input type="text" class="searchWin" placeholder="请输入你要搜索的内容">
+					<span class="searchCloseBtn"></span>
+					<div class="searchResultBox">
+						<div class="shadow"></div>
+						<div class="searchResult">
+							<div class="histortyBox">
+								<h3 class="histortyTitle">历史搜索:</h3>
+								<div class="history">
+								<!-- <a href="search.html?id=19&type=channel&keyword=" class="li"></a> -->
+								</div>
+							</div>
+							<div class="result">
+								<!-- <a href="search.html?id=19&type=channel&keyword=" class="li"></a> -->
+							</div>
+
+						</div>
+					</div>
+				</div>
+				<div class="loginBox">
+					<div class="signOut">
+						<div class="loginAvator"></div>
+						<span class="name loginBtn J_login">未登录</span>
+					</div>
+					<div class="useInfo" style="display: none;">
+						<img src="" alt="" class="avator">
+						<span class="name">sam</span>
+						<div class="loglist">
+							<a href="http://login.yinyuetai.com/logout"><div class="singOutbtn">退出登陆</div></a>
+							<span class="triangle"></span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="common_con">
+			<div class="programBox">
+				<dl class="program-list">
+					<dd class="program">
+						<div class="date">
+							<div class="dot"></div>
+							<div class="time">今日</div>
+						</div>
+						<ul class="program-oneday-list">
+							<!-- <li class="program-oneday-li clearfix">
+								<div class="videoBox">
+									<img src="../img/calendar/candel.png" alt="">
+									<span class="palytime">50:00</span>
+								</div>
+								<div class="program-msg">
+									<h4 class="title"> FTISLAND-2015 FTISLAND LIVE《WE WILL》...</h4>
+									<span class="time"> 2016年3月12日 12：00</span>
+								</div>
+								<div class="tips"></div>
+								<div class="clickBox">
+									<div class="shadow"></div>
+									<div class="erweima"></div>
+								</div>
+							</li> -->
+						</ul>
+					</dd>
+				</dl>
+			</div>
+		</div>
+	</div>
+	<div class="bottom">
+		<p class="link">
+			<a href="#">关于音悦台</a>
+			<a href="#">人才招聘</a>
+			<a href="#">联系我们</a>
+			<a href="#">友情链接</a>
+			<a href="#">版本声明</a>
+			<a class="last" href="#">客服中心</a>
+		</p>
+		<div class="copyright">
+			Copyright © 2009 - 2016 yinyuetai.com 广播电视节目制作经营 许可证编号(京)字第1891号 | <a href="#">京网文[2014]2037-287号</a> | <a href="#">网络视听许可证0110413号</a><br>
+			<img src="../img/bottom/ghs.png" alt="" class="ghs"><a href="#">京公网安备11010502014900号</a> | 京ICP证060716号 |京ICP备11024134号-1 | 出版物经营许可证 新出发京零字第朝130062号 | 增值电信业务经营许可证B2-20140501<img src="../img/bottom/biaoshi.gif" alt="" class="biaoshi">
+		</div>
+	</div>
+	<script>
+		var Y = Y || {}, $config = $config || {};
+	    Y.jsBaseUrl = "js/";
+	</script>
+	<script src="js/require.2.1.9-jquery.2.0.3-underscore.1.5.2-backbone.1.0.0.js"></script>
+	<script src="js/common.js"></script>
+	<script>
+		require(['modules/yinyuetai/topbar']);
+		require(['js/app/calendar.js']);
+	</script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+{
+  "code": "0",
+  "msg": "SUCCESS",
+  "data": [
+    {
+      "onlineCount": 0,
+      "popularity": 0,
+      "channel": {
+        "channelId": 637,
+        "channelName": "",
+        "profileImg": "http://v.phinf.naver.net/20160304_252/1457094561042CFEGQ_PNG/upload_AT.M01_logoSNS.png",
+        "representativeColor": "#fbad3e",
+        "follow": 10,
+        "subscribed": true
+      },
+      "id": 107,
+      "willStartTime": 0,
+      "onAirStartTime": 1457770320000,
+      "willEndTime": 4102415940000,
+      "createdTime": 1457770320000,
+      "playtime": 494,
+      "restrictedRegionList": [],
+      "videoType": 2,
+      "videoName": "[ASTRODDOCA]아스트로또까제주도출장",
+      "screenOrientation": 1,
+      "posterPic": "http://v.phinf.naver.net/20160312_36/1457766736434pAzdq_JPEG/1457725935827.jpg",
+      "originType": 1
+    },
+    {
+      "onlineCount": 0,
+      "popularity": 0,
+      "channel": {
+        "channelId": 645,
+        "channelName": "WelcometoT-ARAchannel",
+        "profileImg": "http://v.phinf.naver.net/20151001_68/1443675892675voGWr_PNG/profile59_777.png",
+        "representativeColor": "#ff5a93",
+        "follow": 20,
+        "subscribed": true
+      },
+      "id": 106,
+      "willStartTime": 0,
+      "onAirStartTime": 1457765640000,
+      "willEndTime": 4102415940000,
+      "createdTime": 1457765100000,
+      "playtime": 273,
+      "restrictedRegionList": [],
+      "videoType": 2,
+      "videoName": "[T-ara]베트남공항도착",
+      "screenOrientation": 1,
+      "posterPic": "http://v.phinf.naver.net/20160312_152/1457761880074UScRs_JPEG/531C05F33306F39C36330E0F93584833105_muploader_d_360P_640_1228_128_logo.jpg",
+      "originType": 1
+    }
+  ],
+  "now": 1458543277060
+}

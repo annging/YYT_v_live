@@ -1,0 +1,397 @@
+@import url('common/base.less');
+@import url('common/topbar.less');
+@import url('common/bottom.less');
+@import url('common/altertify.less');
+@1ecfff : #1ecfff;
+#header{
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100;
+	width: 100%;
+}
+.container{
+	background: #f6f6f6 url(../../img/living/living-container_bg.jpg) repeat-x top left;
+	min-height: 800px;
+	padding-top: 85px;
+	position: relative;
+}
+.bar{
+    width:8px;
+    right: 5px!important;
+}
+.point{
+    width:8px;
+    background: #1ecfff;
+    opacity:0.8;
+    filter:alpha(opacity=80);
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius:5px;
+}
+.liveWin{
+	padding-top: 6px;
+	.videoWin{
+		margin-right: 9px;
+		.fl;
+		width: 808px;
+		padding:7px 6px 18px;
+		background: #fff;
+		.flash{
+			height: 428px;
+			background: #ccc;
+		}
+		.videoMsg{
+			position: relative;
+			.title{
+				overflow: hidden;
+				padding:14px 0 3px 0;
+				h3{
+					.fl;
+					font-size: 18px;
+					width: 470px;
+					color:#222;
+					height: 30px;
+					line-height: 30px;
+					.ellipsis;
+					text-indent: 10px;
+				}
+				img{
+					display: none;
+					.fl;
+				}
+			}
+			.anchorMsg{
+				padding:0 0 14px 5px;
+				overflow: hidden;
+				.avator{
+					width: 53px;
+					height: 53px;
+					border-radius: 50%;
+					.fl;
+				}
+				.anchorName{
+					.fl;
+					line-height: 53px;
+					font-size: 18px;
+					padding-left: 8px;
+					color:#222;
+					font-weight: bolder;
+				}
+			}
+			.supportBox{
+				padding-left: 5px;
+				overflow: hidden;
+				span{
+					.fl;
+					padding-left: 27px;
+					line-height: 18px;
+					width: 144-27px;
+					background: url('../../img/living/xixi.png') no-repeat center left;
+					color:#adadad;
+				}
+				.lovesCount{
+					background-image: url('../../img/living/love-ico.png');
+					
+				}
+			}
+			.loveBtn{
+				width: 66px;
+				height: 66px;
+				background: #bbb;
+				position: absolute;
+				right: 26px;
+				top: 35%;
+				cursor: pointer;
+				.power{
+					position: absolute;
+					bottom: 0;
+					left: 0;
+					width: 100%;
+					height: 50%;
+					background: #f72478;
+				}
+				.shadow{
+					position: absolute;
+					top: 0;
+					left: 0;
+					width: 100%;
+					height: 100%;
+					background: url('../../img/living/love_hollow.png') no-repeat center;
+				}
+			}
+		}
+	}
+	.commentWin{
+		.fl;
+		width: 363px;
+		background: #fff;
+		.com_title{
+			padding:14px 0 11px 16px;
+			border-bottom: 1px solid #eee;
+			color:#1ecfff;
+			span{
+				color:#cdcdcd;
+			}
+		}
+		.comment_con{
+			border-bottom: 2px solid #ddd;
+			height: 414px;
+			overflow-x: auto;
+			.commentList{
+				padding-left: 15px;
+			}
+			.commentMsg{
+				padding: 5px 0 6px;
+				.com_avator{
+					width: 53px;
+					height: 53px;
+					border-radius: 50%;
+					.fl;
+				}
+				.con{
+					padding-left: 10px;
+					width: 238px;
+					.fl;
+					.name{
+						padding:8px 0 3px;
+						color:#1ecfff;
+					}
+					p{
+						line-height: 25px;
+						height: 50px;
+						color:#222;
+						word-wrap: break-word;
+						// .ellipsis;
+					}
+				}
+			}
+		}
+		.contrlBox{
+			padding:13px 11px 11px 11px;
+			.buttonBox{
+				overflow: hidden;
+				padding-left: 192px;
+				margin-bottom: 10px;
+				span{
+					.fl;
+					text-align: center;
+					width: 65px;
+					line-height: 27px;
+					border-radius: 27px;
+					background: #d1d1d1;
+					color:#fff;
+					cursor: pointer;
+					font-size: 12px;
+				}
+				span:hover{
+					background: #1ecfff;
+				}
+				span.on{
+					background: #1ecfff;
+				}
+				.closeScroll{
+					margin-right: 14px;
+				}
+			}
+			.inputBox{
+				overflow: hidden;
+				.input_comment{
+					background: #efefef;
+					color:#999;
+					width: 270-40px;
+					height: 70-22px;
+					.fl;
+					padding:11px 20px;
+					border:0;
+					resize: none;
+				}
+				.button{
+					width: 70px;
+					line-height: 70px;
+					.fl;
+					background: #1ecfff;
+					color:#fff;
+					text-align: center;
+					cursor: pointer;
+				}
+			}
+		}
+	}
+}
+.live_history{
+	h2{
+		font-size: 20px;
+		padding-top: 14px;
+		color:#777;
+	}
+}
+.programCon{
+	width: 100%;
+	height: 351px;
+	margin-bottom: 44px;
+	overflow: hidden;
+	position: relative;
+	.btn{
+		position: absolute;
+		top: 36%;
+		width: 50px;
+		height: 50px;
+		background: #f90;
+		opacity: 0;
+		z-index: 100;
+	}
+	.lBtn{
+		left: 0;
+		display: none;
+	}
+	.rBtn{
+		right: 0;
+		display: none;
+	}
+}
+.programlist{
+	padding-top: 14px;
+	padding-bottom: 7px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	// margin-right: -6px;
+}
+.program{
+	.fl;
+	margin:0 6px 6px 0;
+	width: 386px;
+	height: 302px;
+	padding: 11px 5px;
+	background: url(../../img/index/program-bg.png) no-repeat bottom center;
+	.program-top{
+		overflow: hidden;
+		padding:11px 6px 8px 5px;
+		.avator{
+			.fl;
+			margin-right: 10px;
+		}
+		.name{
+			height: 53px;
+			line-height: 53px;
+			font-size: 18px;
+			.fl;
+		}
+		.meet{
+			width: 81px;
+			height: 35px;
+			line-height: 35px;
+			font-size: 14px;
+			text-align: center;
+			margin-top: 9px;
+			color:#fff;
+			background: url('../../img/index/meet_btn_bg.png') no-repeat center;
+			cursor: pointer;
+			.fr;
+		}
+		.meet:hover{
+			background-image: url('../../img/index/meet_btn_hover.png');
+		}
+		.meet.disabled{
+			background-image: url('../../img/index/meet_btn_disable.png');
+			cursor: default;
+			
+		}
+	}
+	.viedoBox{
+		position: relative;
+		cursor: pointer;
+		width: 386px;
+		height: 204px;
+		.videoImg{
+			width: 100%;
+			height: 100%;
+		}
+		.viedo_time{
+			width: 46px;
+			height: 20px;
+			line-height: 20px;
+			text-align: center;
+			background: url('../../img/index/time-bg.png') no-repeat;
+			position: absolute;
+			bottom: 5px;
+			right: 6px;
+			color:#fff;
+		}
+		.shadow{
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			background: #000;
+			opacity:0.3;
+			filter:alpha(opacity=30);
+			display: none;
+		}
+		.play_ico{
+			display: none;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			width: 54px;
+			height: 54px;
+			margin-left: -27px;
+			margin-top: -27px;
+			background: url('../../img/publish/play-ico.png') no-repeat center;
+		}
+	}
+	.viedoBox:hover{
+		.shadow,.play_ico{
+			display: block;
+		}
+	}
+	.program_msg{
+		.title{
+			height: 40px;
+			line-height: 40px;
+			padding-left: 5px;
+			font-size: 14px;
+			letter-spacing: 1px;
+			margin-bottom: 4px;
+			color:#505050;
+			display: block;
+			.ellipsis;
+		}
+		.title:hover{
+			color:#1ecfff;
+		}
+		.program_time{
+			font-size: 14px;
+			height: 16px;
+			line-height: 16px;
+			letter-spacing: 1px;
+			color:#969696;
+			padding-left: 26px;
+			margin-bottom: 15px;
+			background: url('../../img/index/time-ico.png') no-repeat 5px center;
+		}
+		.program_support{
+			span{
+				width: 130px;
+				font-size: 14px;
+				height: 18px;
+				line-height: 18px;
+				letter-spacing: 1px;
+				color:#969696;
+				padding-left: 26px;
+				background: no-repeat 5px 0;
+				.fl;
+			}
+			.program_people{
+				background-image: url('../../img/index/xixi.png');
+			}
+			.program_love{
+				background-image: url('../../img/index/love-ico.png');
+			}
+			
+		}
+	}
+}
+

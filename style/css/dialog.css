@@ -1,0 +1,30 @@
+.dialog {
+    position: fixed;
+    display: none;
+    top: 50%;
+    left: 50%;
+    z-index: 999;
+    border-radius: 3px;
+    background-color: #fff;
+    _position: absolute;
+    -moz-box-shadow: 0 0 15px #000;
+    -webkit-box-shadow: 0 0 15px #000;
+    box-shadow: 0 0 15px #000;
+    border: 1px solid #ececec;
+}
+
+.dialog .dialog_title {
+    height: 30px;
+    line-height: 30px;
+    text-indent: 15px;
+    color: #666;
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #eee;
+    -webkit-border-top-left-radius: 3px;
+    -webkit-border-top-right-radius: 3px;
+    position: relative;
+}
+
+.dialog .ico_close {
+    top: 2px;
+}

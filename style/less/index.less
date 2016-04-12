@@ -1,0 +1,230 @@
+@import url('common/base.less');
+@import url('common/topbar.less');
+@import url('common/bottom.less');
+@import url('common/altertify.less');
+@1ecfff : #1ecfff;
+.container{
+	background: #f6f6f6 url(../../img/index/index_container_bg.jpg) repeat-x  left 85px;
+	min-height: 800px;
+	padding-top: 85px;
+	position: relative;
+}
+.channelnav{
+	padding-left: 954px;
+	overflow: hidden;
+	padding-top: 35px;
+	li{
+		.fl;
+		width: 73px;
+		height: 46px;
+		margin-right: 9px;
+		text-align: center;
+		position: relative;
+		font-size: 16px;
+		cursor: pointer;
+	}
+	li.on{
+		border-bottom: 4px solid #1ecfff;
+		color: #1ecfff;
+	}
+}
+
+.programlist{
+	padding-top: 14px;
+	margin-right: -6px;
+}
+.program{
+	.fl;
+	margin:0 6px 6px 0;
+	width: 386px;
+	height: 386px;
+	padding: 0 5px;
+	background: url(../../img/index/program-bg.png) no-repeat center;
+	.program-top{
+		overflow: hidden;
+		padding:11px 6px 8px 5px;
+		.avator{
+			width: 53px;
+			height: 53px;
+			border-radius: 50%;
+			.fl;
+			margin-right: 10px;
+		}
+		.name{
+			height: 53px;
+			line-height: 53px;
+			font-size: 18px;
+			.fl;
+		}
+		.meet{
+			width: 81px;
+			height: 35px;
+			line-height: 35px;
+			font-size: 14px;
+			text-align: center;
+			margin-top: 9px;
+			color:#fff;
+			background: url('../../img/index/meet_btn_bg.png') no-repeat center;
+			cursor: pointer;
+			.fr;
+		}
+		.meet:hover{
+			background-image: url('../../img/index/meet_btn_hover.png');
+		}
+		.meet.disabled{
+			background-image: url('../../img/index/meet_btn_disable.png');
+			// cursor: default;
+			
+		}
+	}
+	.viedoBox{
+		position: relative;
+		cursor: pointer;
+		.videoImg{
+			width: 386px;
+			height: 204px;
+		}
+		.viedo_time{
+			width: 46px;
+			height: 20px;
+			line-height: 20px;
+			text-align: center;
+			background: url('../../img/index/time-bg.png') no-repeat;
+			position: absolute;
+			bottom: 5px;
+			right: 6px;
+			color:#fff;
+		}
+		.shadow{
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			background: #000;
+			opacity:0.3;
+			filter:alpha(opacity=30);
+			display: none;
+		}
+		.play_ico{
+			display: none;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			width: 54px;
+			height: 54px;
+			margin-left: -27px;
+			margin-top: -27px;
+			background: url('../../img/publish/play-ico.png') no-repeat center;
+		}
+	}
+	.viedoBox:hover{
+		.shadow,.play_ico{
+			display: block;
+		}
+	}
+	.program_msg{
+		.title{
+			height: 40px;
+			line-height: 40px;
+			padding-left: 5px;
+			font-size: 14px;
+			letter-spacing: 1px;
+			margin-bottom: 4px;
+			color:#505050;
+			display: block;
+			.ellipsis;
+		}
+		.title:hover{
+			color:#1ecfff;
+		}
+		.program_time{
+			font-size: 14px;
+			height: 16px;
+			line-height: 16px;
+			letter-spacing: 1px;
+			color:#969696;
+			padding-left: 26px;
+			margin-bottom: 15px;
+			background: url('../../img/index/time-ico.png') no-repeat 5px center;
+		}
+		.program_support{
+			span{
+				width: 130px;
+				font-size: 14px;
+				height: 18px;
+				line-height: 18px;
+				letter-spacing: 1px;
+				color:#969696;
+				padding-left: 26px;
+				background: no-repeat 5px 0;
+				.fl;
+			}
+			.program_people{
+				background-image: url('../../img/index/xixi.png');
+			}
+			.program_love{
+				background-image: url('../../img/index/love-ico.png');
+			}
+			
+		}
+	}
+}
+
+@pageFc : #9e9e9e;
+.pageHeight{
+	height: 40px;
+	line-height: 40px;
+}
+.pageBox{
+	padding:15px 0 30px;
+
+	.fr;
+	.pre{
+		margin-right: 18px;
+		padding:0 5px;
+		.fl;
+		.pageHeight;
+		text-align: center;
+	}
+	span{
+		color:@pageFc;
+		font-family: '微软雅黑';
+		cursor: pointer;
+	}
+	.num{
+		.fl;
+		margin-right: 13px;
+		span{
+			width: 40px;
+			.pageHeight;
+			text-align: center;
+			display: inline-block;
+
+		}
+		span.now{
+			background: @1ecfff;
+			border-radius: 2px;
+			color:#fff;
+		}
+
+	}
+	.next{
+		margin-right: 15px;
+		padding:0 5px;
+		.fl;
+		.pageHeight;
+		text-align: center;
+	}
+	.allPage{
+		color:#ccc;
+		font-size: 14px;
+		.fl;
+		.pageHeight;
+	}
+	span.hover{
+		background: @1ecfff;
+		border-radius: 2px;
+		color:#fff;
+	}
+}

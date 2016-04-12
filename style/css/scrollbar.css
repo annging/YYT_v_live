@@ -1,0 +1,411 @@
+.publi_top{
+    width:100%;
+    height:500px;
+    background: url("/v2/images/app/feature/awards2015/pub_bg_12.jpg") no-repeat center top #000;
+    margin: 41px auto 0;
+}
+.publi_before{
+    width:1014px;
+    height:500px;
+    background: url("/v2/images/app/feature/awards2015/h_bg_4.png") no-repeat left top;
+    margin:0 auto;
+}
+.publi_guest_box{
+    background: url("/v2/images/app/feature/awards2015/pub_bg_2.jpg") no-repeat center top #000;
+}
+.publi_guest,.publi_member,.publi_energy{
+    width:1014px;
+    margin:0 auto;
+}
+.publi_guest_h2{
+    width:100%;
+    background: url("/v2/images/app/feature/awards2015/h_bg_1.png") no-repeat 8px 23px;
+    height:110px;
+}
+.publi_guest_list{
+    width:100%;
+}
+.publi_member_box{
+    background: #1b1b1b;
+    width:100%;
+}
+.publi_member{
+    background: url("/v2/images/app/feature/awards2015/pub_bg_31.jpg") no-repeat center top;
+    height:703px;
+    position:relative;
+}
+.publi_member a{
+    width:100%;
+    height:85px;
+    position:absolute;
+    top:335px;
+    left:0;
+}
+.publi_idol_box{
+    background: #262626;
+    width:100%;
+    padding-bottom: 44px;
+}
+.publi_idol{
+    width:1154px;
+    margin:0 auto;
+    background: url("/v2/images/app/feature/awards2015/pub_bg_41.jpg") no-repeat center top;
+    height:1107px;
+}
+.publi_energy{
+    background: url("/v2/images/app/feature/awards2015/pub_bg_51.jpg") no-repeat center top;
+    height:346px;
+    position: relative;
+}
+.publi_memory_box{
+    width:100%;
+    background: url("/v2/images/app/feature/awards2015/pub_bg_7.jpg") no-repeat center top #090909;
+    padding-bottom:107px;
+}
+.publi_memory_h2{
+    width:1014px;
+    margin:0 auto;
+    background: url("/v2/images/app/feature/awards2015/h_bg_3.png") no-repeat left top;
+    height:116px;
+}
+.publi_memory_list{
+    width:1012px;
+    margin:0 auto;
+    border:1px solid #333333;
+    padding-bottom:13px;
+}
+.publi_memory_list li{
+    height:276px;
+    width:224px;
+    border:1px solid #545454;
+    float:left;
+    margin:18px 5px 6px 19px;
+    overflow:hidden;
+}
+.publi_nowing{
+    margin:0 auto;
+    width:1014px;
+}
+.publi_list_li{
+    float:left;
+    width:249px;
+}
+.publi_list_aux{
+    position:relative;
+    display:none;
+    border-top:1px solid #2a2a2b;
+    border-bottom:1px solid #2a2a2b;
+    width:1014px;
+}
+.publi_room_list{
+    background: #202020;
+    opacity: 0.7;
+    filter:alpha(opacity=70);
+}
+.publi_room_list em{
+    display:inline-block;
+    width:21px;
+    height:13px;
+    position: relative;
+    top: 2px;
+    left: 0;
+}
+.publi_room_list li strong:hover{
+    color:#00beaa;
+}
+.publi_room_list strong{
+    font-weight: normal;
+}
+.vip em{
+    background: url("/v2/images/app/feature/awards2015/vip_bg.png") no-repeat left top;
+}
+.publi_room_list li{
+    float:left;
+    line-height:34px;
+    color:#717171;
+    padding:7px 0;
+    font-size: 12px;
+    padding-left:25px;
+    width:143px;
+}
+.publi_room_list li strong{
+    padding-left:4px;
+    cursor:pointer;
+}
+.publi_nowing h1{
+    width:100%;
+    background: url("/v2/images/app/feature/awards2015/h_bg_5.png") no-repeat 36px 17px;
+    height:121px;
+}
+.publi_chose{
+    width:100%;
+    background: url("/v2/images/app/feature/awards2015/h_bg_7.png") no-repeat left top;
+    height: 379px;
+}
+.publi_idol_list{
+}
+.publi_chose_h3{
+    height:60px;
+    width:100%;
+    background: url("/v2/images/app/feature/awards2015/h_bg_6.png") no-repeat 12px 17px;
+    border-bottom:1px solid #2b2c30;
+}
+.publi_list_li h4{
+    line-height:60px;
+    width:203px;
+    padding-left:50px;
+    font-family: "Micosoft yahei";
+    font-size: 14px;
+    font-weight: bold;
+    color:#b6b6b6;
+    cursor:pointer;
+}
+.publi_list_li h4:hover{
+    color:#00beaa;
+}
+.publi_list_li .col01b{
+    color:#01b2a0;
+}
+.publi_list_tip{
+    position:absolute;
+    top:-10px;
+    left:82px;
+    width:17px;
+    height:10px;
+    background: url("/v2/images/app/feature/awards2015/tips_bg_1.png") no-repeat ;
+}
+.publi_auto{
+    height:318px;
+}
+.list_1{
+    left:0px;
+}
+.list_1 .publi_list_tip{
+    left:70px;
+}
+.list_2{
+    left:-249px;
+}
+.list_2 .publi_list_tip{
+    left:314px;
+}
+.list_3{
+    left:-498px;
+}
+.list_3 .publi_list_tip{
+    left:560px;
+}
+.list_4{
+    left:-747px;
+}
+.list_4 .publi_list_tip{
+    left:808px;
+}
+.footer{
+    background: #161616;
+    margin-top:0;
+}
+.nav{
+    position: fixed;
+    top: 50%;
+    right: 0;
+    margin-top: -263px;
+    background: #171717;
+    opacity: 0.7;
+    filter:alpha(opacity=70);
+    width:95px;
+}
+.nav .icon{
+    display:block;
+    width:72px;
+    height:56px;
+    background: url("/v2/images/app/feature/awards2015/nav_bg1.png") no-repeat
+}
+.nav_visitor .icon{
+    background-position: -4px -263px;
+}
+.nav_viper .icon{
+    background-position: 0 -320px;
+}
+.nav_helper .icon{
+    background-position: 0 -387px;
+}
+.nav_memory .icon{
+    background-position: -7px -452px;
+}
+.nav_visitor:hover .icon{
+    background-position: 0 0;
+}
+.nav_viper:hover .icon{
+    background-position: 2px -63px;
+}
+.nav_helper:hover .icon{
+    background-position: 4px -128px;
+}
+.nav_memory:hover .icon{
+    background-position: -5px -195px;
+}
+.nav .name{
+    font-weight: normal;
+    color:#505050;
+    display: inline-block;
+    line-height:27px;
+    text-align: center;
+    width:72px;
+}
+.nav a:hover .name{
+    color:#01b2a0;
+}
+.nav_visitor,.nav_helper,.nav_memory,.nav_viper{
+    padding:37px 0;
+    border-bottom:1px solid #333333;
+    display: block;
+    margin:0 auto;
+    width: 72px;
+}
+.nav_visitor:hover .name,.nav_helper:hover .name,.nav_memory:hover .name,.nav_viper:hover .name{
+    color:#f3f3f3;
+}
+.wo-banner {
+    width: 1014px;
+    margin: 0 auto;
+    position: relative;
+    padding-bottom: 46px;
+    height:590px;
+}
+.wo-banner-inner {
+    height: 590px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    border:1px solid #353535;
+    width: 864px;
+}
+.banner {
+    overflow: hidden;
+}
+.banner li a{
+    display:block;
+    padding:10px;
+    background: #080808;
+}
+.wo-banner-inner .banner {
+    position: absolute;
+}
+.wo-banner-inner .banner li {
+    background: #191919;
+    float: left;
+    position: relative;
+    overflow: hidden;
+    display: none;
+}
+.wo-banner .arrow-left, .wo-banner .arrow-right {
+    width: 60px;
+    height: 100px;
+    position: absolute;
+    top: 230px;
+    z-index: 2;
+    background: url("/v2/images/app/feature/awards2015/arrow.png") no-repeat;
+}
+.wo-banner .arrow-left {
+    left: 0;
+    background-position: 0 0px;
+}
+.wo-banner .arrow-right {
+    right: 0;
+    background-position: 0px -100px;
+}
+.publi_share{
+    width: 177px;
+    height: 28px;
+    position: absolute;
+    left: 613px;
+    top: 278px;
+}
+.info_share {
+    float: right;
+}
+.info_share .share_ico {
+    float: left;
+    width: 28px;
+    height: 28px;
+    margin: 1px 13px 0 0;
+    background: url("/v2/images/app/feature/awards2015/share.png") no-repeat;
+    z-index: 2;
+    position: relative;
+}
+.info_share .myhome {
+    background-position: -20px 0;
+}
+.info_share .weibo {
+    background-position:0 0;
+}
+.info_share .qzone {
+    background-position:0 -28px;
+}
+.info_share .tencent {
+    background-position:0 -56px;
+}
+.info_share .weixin {
+    background-position:0 -84px;
+    position:relative;
+    z-index:1;
+}
+.share_list a.weixin span i {
+    position: absolute;
+    top: 0;
+    left:0;
+    border: 1px solid #373737;
+    padding: 10px;
+    height: 92px;
+    width: 92px;
+    background-color: #040404;
+}
+.share_list a.weixin span img {
+    width: 92px;
+    height: 92px;
+}
+.share_list a.weixin span {
+    position: absolute;
+    top: -115px;
+    left: -84px;
+    display: none;
+    width: 112px;
+    height: 144px;
+    z-index:-1;
+}
+.share_list a.weixin:hover span {
+    display: block;
+}
+.share_text {
+    float: left;
+    color: #999;
+    line-height:24px;
+}
+.publi_fanpiao{
+    width: 80px;
+    height: 30px;
+    position: absolute;
+    top: 103px;
+    left: 304px;
+}
+.publi_wallet{
+    width: 80px;
+    height: 30px;
+    position: absolute;
+    top: 103px;
+    left: 400px;
+}
+.bar{
+    width:8px;
+    right: 5px!important;
+}
+.point{
+    width:8px;
+    background: #fff;
+    opacity:0.15;
+    filter:alpha(opacity=15);
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius:5px;
+}

@@ -1,0 +1,73 @@
+.alertify-wrapper {
+    position: fixed;
+    z-index: 99999;
+    width: 100%;
+    display: none;
+    left: 0;
+}
+
+.alertify-wrapper-ctn {
+    float: left;
+    position: relative;
+    left: 50%;
+}
+
+.alertify-wrapper-iframe {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    border: 0;
+}
+
+.alertify-wrapper-ctn-inner {
+    position: relative;
+    right: 50%;
+    float: left;
+}
+
+.alertify-wrapper-ctn-inner div {
+    position: relative;
+    border: #8e8e8e 2px solid;
+    border-radius: 0.1rem;
+    background: #FFF;
+    box-shadow: 0 0 0.15rem #646464;
+    color: #690;
+    font-size: 0.8rem;
+    line-height: 1.6rem;
+    padding: 0 1.5rem;
+}
+
+.alertify-wrapper-ctn-inner div i {
+    position: absolute;
+    top: 0.3rem;
+    left: 0.3rem;
+    width: 0.96rem;
+    height: 0.96rem;
+    background: url("../../../img/altertify/alertify_icon.png") no-repeat 0 0;
+    background-size: 1rem 4rem;
+}
+.alertify-wrapper-ctn-inner div.alertify-log {
+    color: #ff9000;
+}
+
+.alertify-wrapper-ctn-inner div.alertify-log i {
+    background-position: 0 -2.8rem;
+}
+
+.alertify-wrapper-ctn-inner div.alertify-loading i {
+    background: url("../../../img/altertify/alertify_icon_loading.gif") no-repeat 0 0;
+    background-size: 1rem 1rem;
+}
+
+.alertify-wrapper-ctn-inner div.alertify-error {
+    color: #F30;
+}
+
+.alertify-wrapper-ctn-inner div.alertify-error i {
+    background-position: 0 -1.88rem;
+}
+
+.alertify-wrapper-ctn-inner div.alertify-success i {
+    background-position: 0 -0.95rem;
+}

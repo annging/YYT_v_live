@@ -1,0 +1,19 @@
+{
+  "name": "yinyuetai_v_live_pc",
+  "version": "1.0.0",
+  "description": "音悦台v直播PC版",
+  "main": "index.js",
+  "scripts": {
+    "server": "gulp webserver"
+  },
+  "author": "YYT",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.11.2",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-connect": "^3.2.2",
+    "gulp-less": "^3.0.5",
+    "gulp-server-livereload": "^1.7.3"
+  }
+}

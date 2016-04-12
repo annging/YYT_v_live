@@ -1,0 +1,169 @@
+#header{
+	position: fixed;
+    width: 100%;
+    height: 85px;
+    top: 0;
+    left: 0;
+    z-index: 800;
+}
+.topbar{
+	height: 85px;
+	background: #1ecfff;
+	position: relative;
+	.logo{
+		width: 51px;
+		height: 62px;
+		background: url(../../img/topbar/logo.png);
+		position: absolute;
+		left: -61px;
+		top: 12px;
+	}
+	.nav{
+		position: absolute;
+		left: 0;
+		top: 0;
+		padding:35px 0 0 47px;
+		a{
+			width: 57px;
+			height: 42px;
+			margin-right: 54px;
+			.fl;
+			color:#fff;
+			font-size: 18px;
+			text-align: center;
+			position: relative;
+		}
+		a.now{
+			color:#ffe301;
+			font-weight: bolder;
+			border-bottom: 8px solid #ffe301;
+		}
+	}
+	.searchBox{
+		position: absolute;
+		left: 278px;
+		padding-top: 29px;
+		.searchIco{
+			width: 31px;
+			height: 29px;
+			background: url(../../img/topbar/searchIco.png);
+			.fl;
+			left: 0;
+			margin-right: 28px;
+		}
+		.searchCloseBtn{
+			width: 28px;
+			height: 28px;
+			background: url(../../img/topbar/searchCloseBtn.png);
+			.fl;
+			left: 0;
+			cursor: pointer;
+		}
+		::-webkit-input-placeholder { 
+			color:#8ee2ff !important; 
+		} 
+		.searchWin{
+			.fl;
+			font-size: 16px;
+			width: 670px;
+			height: 29px;
+			background: transparent;
+			border:none;
+		}
+	}
+	.searchResultBox{
+	display: none;
+	.shadow{
+		position: fixed;
+		top: 85px;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background: #000;
+		opacity: 0.3;
+		filter:alpha(opacity=30);
+	}
+	.searchResult{
+		width: 760px;
+		padding:10px;
+		padding-top: 18px;
+		position: absolute;
+		top: 85px;
+		left: 50%;
+		margin-left: -390px;
+		background: #fff;
+		h3{
+			padding-left: 19px;
+			height: 24px;
+			line-height: 24px; 
+			color:#d0d0d0;
+			font-size: 16px;
+		}
+		.li{
+			display: block;
+			padding-left: 19px;
+			height: 73px;
+			line-height: 73px; 
+			color:#999;
+			font-size: 18px;
+			cursor: pointer;
+		}
+		.li:hover{
+			background: #dfdfdf;
+			color:#1ecfff;
+		}
+	}
+}
+
+	
+}
+.loginBox{
+	position: absolute;
+	left: 100%;
+	width: 200px;
+	height: 100%;
+	padding-top: 14px;
+	line-height: 53px;
+	img{
+		border-radius:50%;
+		width: 53px;
+		height: 53px;
+	}
+	.loginAvator{
+		.fl;
+		border-radius:50%;
+		width: 53px;
+		height: 53px;
+		background: url('../../../img/topbar/login.png');
+		background-size: 100%;
+	}
+	.name{
+		color:#fff;
+		cursor: pointer;
+		font-size: 16px;
+	}
+	.loglist{
+		display: none;
+		position: absolute;
+		left: 38px;
+		top: 69px;
+		width: 94px;
+		background: #fff;
+		box-shadow: 0px 0px 20px #ccc;
+		.triangle{
+			position: absolute;
+			border:8px solid transparent;
+			border-bottom-color: #fff;
+			top: -16px;
+			left: 40%;
+		}
+		.singOutbtn{
+			text-align: center;
+			color:#969696;
+			cursor: pointer;
+		}
+		.singOutbtn:hover{
+			color:#1ecfff;
+		}
+	}
+}

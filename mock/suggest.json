@@ -1,0 +1,17 @@
+{
+    "code": "0",
+    "msg": "SUCCESS",
+    "data": [
+        {
+            "id": 636,
+            "type": "CHANNEL",
+            "suggestName": "B.I.G"
+        },
+        {
+            "id": 54,
+            "type": "VIDEO",
+            "suggestName": "TAEYANGCAM"
+        }
+    ],
+    "now": 1459846318996
+} 

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script src="js/require.2.1.9-jquery.1.10.2-underscore.1.5.2-backbone.1.0.0.js"></script>
+</head>
+<body>
+	<script>
+		$.ajax({
+			url: 'http://beta.yinyuetai.com:9026/search/suggest.json',
+			type: 'get',
+			dataType: 'jsonp',
+			data: {
+				keyword : '周',
+			},
+		})
+		.done(function(data) {
+			console.log(data);
+			console.log("success");
+		})
+		.fail(function() {
+			console.log("error");
+		})
+		.always(function() {
+			console.log("complete");
+		});
+		
+	</script>
+</body>
+</html>

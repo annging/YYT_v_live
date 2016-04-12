@@ -1,0 +1,15 @@
+{
+    "code": "0",
+    "msg": "SUCCESS",
+    "now": 1452687375942,
+    "data": 
+        {
+            "userId": 123,
+            "roleType":0,
+            "userSig":"xxxxxxx",
+            "imIdentifier":"123$0",
+            "imAppid":1400007582,
+            "imAccountType":3802
+        }
+      
+}
